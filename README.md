@@ -1,3 +1,9 @@
+> **English summary.** WebSCADA is a real-time SCADA web system that I designed and built. Telemetry arrives from field stations over TCP, is decoded with a per-station tag schema, passes through a stateful alarm engine, is stored in per-project MySQL databases and is pushed to the browser over WebSocket. It is multi-tenant (a catalog database plus isolated project databases) and uses UID-based configuration that is reused across projects. Stack: Node.js, TypeScript, NestJS-style modules, MySQL, WebSocket, React. Live product: [uscada.pro](https://uscada.pro).
+>
+> This repository is a **sanitized showcase**: architecture, data flow, ADRs, database schemas and a synthetic seed. Production code, customer data and infrastructure details are intentionally not included (see [docs/REDACTION.md](docs/REDACTION.md)). Walkthrough on a call: ledachkov.ilya@gmail.com
+
+---
+
 ## WebSCADA — Showcase (Portfolio)
 
 Это **санитизированная витрина** проекта WebSCADA: достаточно подробная, чтобы быстро оценить архитектуру и инженерные решения, и при этом **безопасная** (без секретов/реальных данных/прод-инфры).
