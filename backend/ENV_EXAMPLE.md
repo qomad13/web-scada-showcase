@@ -1,6 +1,6 @@
 ```env
 PORT=3000
-TCP_PORT=48648
+TCP_PORT=9000
 DB_HOST=localhost
 DB_PORT=3306
 DB_USER=scada_user
